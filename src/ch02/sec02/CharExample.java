@@ -22,7 +22,7 @@ public class CharExample {
         
         
         String str2 = ""; // 공백을 안써도 빈방이 생성된다
-        char ch4 = ' ';  // char는 공백을 써야한다
+        char ch4 = ' ';  // char는 공백을 써야한다.
 
 
     }
