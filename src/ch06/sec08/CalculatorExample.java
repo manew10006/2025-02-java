@@ -20,6 +20,5 @@ public class CalculatorExample {
         calc.powerOff();
 
 
-
     }
 }
