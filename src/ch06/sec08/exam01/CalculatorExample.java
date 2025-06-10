@@ -1,4 +1,4 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 
 public class CalculatorExample {
     //여기가 전역변수 자리

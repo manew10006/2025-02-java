@@ -6,7 +6,7 @@ public class Car {
     int speed;
 
     public Car(){
-        this.speed = 20;
         this.model = "제네시스 g80";
+        this.speed = 20;
     }
 }
