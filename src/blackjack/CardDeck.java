@@ -15,12 +15,12 @@ public class CardDeck {
         int index = 0;
         for (int i = 0; i < patterns.length; i++) {
 
-            for (int k = 0; k < 13; k++) {
+            for (int k = 1; k <= 13; k++) {
                 String denomination = switch (k) {
                     case 1 -> "A";
                     case 11 -> "J";
                     case 12 -> "Q";
-                    case 13 -> "k";
+                    case 13 -> "K";
                     default -> String.valueOf(k);
 
                 };
