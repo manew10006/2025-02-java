@@ -21,13 +21,18 @@ public class ArrayListStudy {
         System.out.println("lest.get(0): " + list.get(0));
         System.out.println("lest.get(0): " + list.get(1));
 
+        System.out.println("------------------------------------");
 
         System.out.println("list2.size()" + list2.size());
-        list2.add("가"); // 0번방에 "가" 주소값
-        list2.add("나"); // 1번방에 "나" 주소값
+        list2.add("가");
+        list2.add("나");
+        list2.add(1,"다"); //중간삽입도 가능 (나머지 뒤로 밀림)
         System.out.println("list2.size()" + list2.size());
         System.out.println("lest2.get(0): " + list2.get(0));
-        System.out.println("lest2.get(0): " + list2.get(1));
+        System.out.println("lest2.get(1): " + list2.get(1));
+        list2.remove(1);  //삭제되고 뒤에게 당겨짐
+        System.out.println("lest2.get(1): " + list2.get(1));
+
 
 
 
